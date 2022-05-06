@@ -1,12 +1,22 @@
+body{
+    background-color: black;
+    color: white;
+
+    margin: auto;
+}
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: auto;
-    
+    padding: 0 50px 0 50px;
 
-    border: 2px solid red;
-    
+    background-color: #1f2937;
+    color:white;
+}
+header h1{
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 #navbar{
@@ -15,8 +25,10 @@ header{
 }
 
 #navbar a{
-    border: 2px solid red;
     padding: 5px;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
 } 
 
 .flex-container-1{
@@ -25,24 +37,38 @@ header{
     justify-content: space-around;
     width: auto;
     height: 450px;
-    border: 2px solid red;
-}
-.box-text{
-    border: 2px solid red;
-}
-.image{
-    border: 2px solid red;
+    background-color: #1f2937;
+    
 }
 
+.image{
+    background-color: gray;
+    padding: 100px 200px 100px 200px;
+}
+
+.flex-container-1 h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+.flex-container-1 button{
+    background-color: #3882f6;
+    color: white;
+}
 .flex-container-2{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 450px;
-    border: 2px solid red;
-}
 
+    background-color: white;
+    color: black;
+}
+.flex-container-2 h1{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
 .gallery{
     display: flex;
     justify-content: space-between;
@@ -52,9 +78,13 @@ header{
 
     width: 1000px;
     height: auto;
-    border: 2px solid red;
+    
 }
-
+.gallery img{
+    border: 1px solid #3882f6;
+    border-radius: 5px;
+    padding: 10px 25px 10px 25px;
+}
 .gallery p{
     display: flex;
     justify-content: center;
@@ -66,7 +96,14 @@ header{
     justify-content: center;
     align-items: center;
     height: 450px;
-    border: 2px solid red;
+
+    background-color: #e5e7eb; 
+}
+
+.flex-container-3 p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .flex-container-4{
@@ -75,12 +112,30 @@ header{
     align-items: center;
     height: 450px;
 
-    border: 2px solid red;
+    background-color: white;
 }
 
+.border{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #3882f6;
+    border-radius: 5px;
+    background-color: #3882f6;
+    width: 500px;
+    padding: 25px 300px 25px 300px;
+}
+.border button{
+    background-color: #3882f6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+}
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
+   
+    background-color: #1f2937;
 }
